@@ -31,7 +31,11 @@ Open Test Explorer from Test > Windows > Test Explorer, and click **Run All** to
 
 ### Generate Standalone Executable
 In Terminal or PowerShell, cd into MultiDownloader from root folder, and execute the following to generate standalone executable for deployment:
+
 Windows 64-bit: `dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true /p:PublishTrimmed=true`
+
 Linux 64-bit: `dotnet publish -r linux-x64 -c Release /p:PublishSingleFile=true /p:PublishTrimmed=true`
+
 macOS 64-bit: `dotnet publish -r osx-x64 -c Release /p:PublishSingleFile=true /p:PublishTrimmed=true`
+
 You may download the latest releases [here](/releases/latest).
